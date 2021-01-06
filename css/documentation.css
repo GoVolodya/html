@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 15px 15px 15px 15px;
+	font-size: 28px;
+}
+
+.nav-link {
+	text-decoration: none;
+	padding: 20px;
+	border-top: 1px solid;
+	display: block;
+	color: black;
+}
+
+#navbar {
+	position: fixed;
+	border-right: 2px solid black;
+	display: block;
+	height: 100%;
+	overflow-y: auto;
+}
+
+#main-doc {
+	margin-left: 270px;
+}
+
+p {
+	margin: 15px;
+}
+
+section li {
+	margin-left: 50px;
+}
+
+ul ul {
+	margin-left: 50px;
+}
+
+.formula {
+	display: block;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+@media (max-width: 600px) {
+	width: 100%;
+}

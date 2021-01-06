@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-color: #ebbd34;
+display: flex;
+
+
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+
+#nav-bar{
+
+	display: block;
+	
+}
+
+#header-img{
+	height: 50px;
+	width: 200px;
+	display: block;
+	padding-left: 25px;
+}
+
+li{
+	list-style: none;
+	margin: 16px;
+}
+
+nav > ul{
+	display: flex;
+	flex-direction: row;
+padding-right: 25px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+#form{
+	padding-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+h1{
+	margin-bottom: 20px;
+}
+
+#email{
+	height: 30px;
+	width: 35%;
+}
+
+#submit{
+	height: 30px;
+	margin-bottom: 25px;
+	width: 25%;
+	border: 0;
+	background-color: yellow;
+	border-radius: 7px;
+	margin-top: 25px;
+}
+
+.icon{
+	width: 100px;
+	height: 100px;
+	justify-content: center;
+}
+
+.desc{
+	display: block;
+	height: 50px;
+	margin-left: 50px;
+	justify-content: center;
+
+}
+
+.grid{
+	display: flex;
+	margin: 20px;
+	margin-bottom: 50px;
+
+}
+
+#info{
+	max-width: 1000px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+#video{
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+#pricing{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.lot{
+	border: 1px solid;
+	width: 200px;
+	margin: 20px;
+height: 260px;
+text-align: center;
+}
+
+h3{
+	text-align: center;
+	background-color: gray;
+}
+
+.price{
+	font-size: 24px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+footer > ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 25px;
+}
+
+footer{
+	padding-right: 25px;
+	background-color: orange;
+}
+
+footer > div{
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}

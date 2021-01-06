@@ -1,0 +1,143 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #5e63bd;
+	padding-right: 25%;
+	padding-left: 25%;
+}
+
+#title {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+#head-line {
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+}
+
+.link {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+form {
+	display: block;
+	min-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ed68a4;
+	padding: 25px 25px 25px 25px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+
+#name-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+#name {
+	width: 100%;
+	height: 30px;
+}
+
+#email-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+#email {
+	width: 100%;
+	height: 30px;
+}
+
+#number-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+#number {
+	width: 100%;
+	height: 30px;
+}
+
+#role-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+#dropdown {
+	width: 100%;
+	height: 30px;
+}
+
+#rec-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+#r1 {
+	font-size: 24px;
+}
+
+#r2 {
+	font-size: 24px;
+}
+
+#r3 {
+	font-size: 24px;
+}
+
+#feature-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+#improve-label {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+#comments {
+	display: block;
+	font-size: 24px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+
+label {
+	font-size: 24px;
+}
+
+#text-area {
+	width: 100%;
+	height: 100px;
+}
+
+#submit {
+	width: 100%;
+	height: 50px;
+	margin-top: 25px;
+	background-color: cyan;
+}
